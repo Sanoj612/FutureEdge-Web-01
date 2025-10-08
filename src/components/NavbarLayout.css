@@ -1,0 +1,17 @@
+/* Hover effect for nav links in light mode */
+.light-nav .nav-link {
+  color: #000; /* black text by default */
+  transition: color 0.2s ease-in-out;
+}
+
+.light-nav .nav-link:hover {
+  color: yellow; /* darker blue on hover */
+}
+
+/* Keep white text in dark mode */
+.dark-nav .nav-link {
+  color: #fff !important;
+}
+.dark-nav .nav-link:hover {
+  color: #90caf9 !important; /* light blue hover in dark mode */
+}
